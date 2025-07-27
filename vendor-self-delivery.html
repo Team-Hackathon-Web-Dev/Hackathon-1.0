@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vendor Self Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Top Navigation -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="text-2xl font-bold text-yellow-600">भारत Bazzar</div>
+    <a href="index4.html" class="text-blue-500 hover:underline">← Back to Home</a>
+  </nav>
+
+  <!-- Page Content -->
+  <section class="max-w-4xl mx-auto py-12 px-6">
+    <h1 class="text-4xl font-bold text-center mb-8">Vendor Self Delivery</h1>
+    
+    <p class="text-lg mb-6 text-center text-gray-700">
+      This section allows vendors to manage and fulfill their own deliveries without depending on third-party logistics. Enter order details, delivery status, and assign delivery staff if needed.
+    </p>
+
+    <!-- Example Form -->
+    <form class="bg-white p-6 rounded-lg shadow-md space-y-4">
+      <div>
+        <label class="block font-medium">Order ID</label>
+        <input type="text" placeholder="e.g., ORD-12345678" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500" />
+      </div>
+      <div>
+        <label class="block font-medium">Delivery Address</label>
+        <textarea placeholder="Customer's address" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+      </div>
+      <div>
+        <label class="block font-medium">Delivery Status</label>
+        <select class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+          <option value="">Select Status</option>
+          <option value="pending">Pending</option>
+          <option value="dispatched">Dispatched</option>
+          <option value="delivered">Delivered</option>
+        </select>
+      </div>
+      <button type="submit" class="bg-yellow-600 text-white px-6 py-2 rounded hover:bg-yellow-700 transition">Update Delivery</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center p-4 mt-12">
+    <p class="text-sm text-gray-600">© Cobtran 2025 — Bharat Bazzar</p>
+  </footer>
+</body>
+</html>

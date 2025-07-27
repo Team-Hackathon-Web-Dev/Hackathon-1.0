@@ -1,0 +1,113 @@
+<!-- File: order-management.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Management - भारत Bazzar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Top Nav -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="text-2xl font-bold text-yellow-600">भारत Bazzar</div>
+    <a href="index4.html" class="text-blue-500 hover:underline">← Back to Home</a>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="max-w-5xl mx-auto py-12 px-6">
+    <h1 class="text-4xl font-extrabold text-center mb-4">Order Management</h1>
+    <p class="text-lg text-center text-gray-700 mb-10">Manage all your orders in one place—track status, view details, and handle dispatches.</p>
+
+    <!-- Orders Table -->
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+      <table class="min-w-full table-auto text-sm">
+        <thead class="bg-yellow-100 text-gray-800">
+          <tr>
+            <th class="px-4 py-2 text-left">Order ID</th>
+            <th class="px-4 py-2 text-left">Item</th>
+            <th class="px-4 py-2 text-left">Vendor</th>
+            <th class="px-4 py-2 text-left">Status</th>
+            <th class="px-4 py-2 text-left">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example Row -->
+          <tr class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2">ORD-8129</td>
+            <td class="px-4 py-2">100kg Basmati Rice</td>
+            <td class="px-4 py-2">Sharma Traders</td>
+            <td class="px-4 py-2 text-green-600 font-semibold">Shipped</td>
+            <td class="px-4 py-2">
+              <button class="text-sm bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Track</button>
+            </td>
+          </tr>
+          <!-- Add more dynamic rows here -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+      <table class="min-w-full table-auto text-sm">
+        <thead class="bg-yellow-100 text-gray-800">
+          <tr>
+            <th class="px-4 py-2 text-left">Order ID</th>
+            <th class="px-4 py-2 text-left">Item</th>
+            <th class="px-4 py-2 text-left">Vendor</th>
+            <th class="px-4 py-2 text-left">Status</th>
+            <th class="px-4 py-2 text-left">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example Row -->
+          <tr class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2">ORD-9311</td>
+            <td class="px-4 py-2">25L Cooking Oil</td>
+            <td class="px-4 py-2">Gupta Oils Pvt Ltd</td>
+            <td class="px-4 py-2 text-green-600 font-semibold">Pending</td>
+            <td class="px-4 py-2">
+              <button class="text-sm bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Cancel</button>
+            </td>
+          </tr>
+          <!-- Add more dynamic rows here -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Orders Table -->
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+      <table class="min-w-full table-auto text-sm">
+        <thead class="bg-yellow-100 text-gray-800">
+          <tr>
+            <th class="px-4 py-2 text-left">Order ID</th>
+            <th class="px-4 py-2 text-left">Item</th>
+            <th class="px-4 py-2 text-left">Vendor</th>
+            <th class="px-4 py-2 text-left">Status</th>
+            <th class="px-4 py-2 text-left">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example Row -->
+          <tr class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2">ORD-7822</td>
+            <td class="px-4 py-2">50kg Wheat Flour</td>
+            <td class="px-4 py-2">Sharma Traders</td>
+            <td class="px-4 py-2 text-green-600 font-semibold">Delivered</td>
+            <td class="px-4 py-2">
+              <button class="text-sm bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Invoice</button>
+            </td>
+          </tr>
+          <!-- Add more dynamic rows here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center p-4 mt-12">
+    <p class="text-sm text-gray-600">© Cobtran 2025 — Bharat Bazzar</p>
+  </footer>
+
+</body>
+</html>
